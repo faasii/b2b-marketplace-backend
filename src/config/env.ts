@@ -1,15 +1,7 @@
 
 export const config = {
-    PORT: process.env.PORT || 3000,
+    PORT: process.env.PORT || 4000,
     DB_URL: process.env.DB_URL || '',
     DB_TEST_URL: process.env.DB_TEST_URL || '',
-    JWT_PRIVATE_KEY: "MXRBQkM5UTE5MUI4MXRBQkM5UTE5MUI4MXRBQkM5UTE5MUI4MXRBQkM5UTE5MUI4",
-    JWT_EXPIRY: "10d",
-    TWILIO_SID: process.env.TWILIO_SID,
-    TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN,
-    TWILIO_PHONE: process.env.TWILIO_PHONE,
-    PUBLIC_URL: process.env.PUBLIC_URL,
-    GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
-    GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET
 
 }
