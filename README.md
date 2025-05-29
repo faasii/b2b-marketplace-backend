@@ -14,7 +14,7 @@ git clone https://github.com/faasii/b2b-marketplace-backend.git
 
 cd b2b-marketplace-backend
 
-mv env-example .env
+mv env-example .env    //update db url
 ```
 
 ### Install dependency
@@ -39,4 +39,7 @@ npm start          // run on production
 ```
 
 
-
+### qucik start
+```
+npm run quickstart
+````
